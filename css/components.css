@@ -1,0 +1,684 @@
+/* ======================= TOOLS USER AREA CSS ======================= */
+
+.UserArea {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  padding: 0 10px;
+}
+.UserArea .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 184px;
+}
+
+.UserArea .icons div {
+  width: 22px;
+  height: 22px;
+}
+
+.UserArea .icons .checkIcon {
+  background-image: url("../assets/check-square.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.UserArea .icons .chatIcon {
+  background-image: url("../assets/notice.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.UserArea .icons .messageIcon {
+  background-image: url("../assets/mail.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.UserArea .icons .calendarIcon {
+  background-image: url("../assets/calendar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.UserArea .icons .startIcon {
+  background-image: url("../assets/star.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.UserArea .user {
+  width: 275px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.UserArea .user .language {
+}
+.UserArea .user .language div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.UserArea .user .language div p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2c2c2c;
+}
+
+.UserArea .user .alertIcon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/bell.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.UserArea .user .searchIcon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/search.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.UserArea .user .userInfo {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 9px;
+}
+.UserArea .user .userInfo .name {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+}
+
+.UserArea .user .userInfo .name p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2c2c2c;
+  text-align: right;
+}
+.UserArea .user .userInfo .name span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #2c2c2c;
+  text-align: right;
+}
+
+.UserArea .user .userInfo .avatar {
+  width: 34px;
+  height: 34px;
+  background-image: url("../assets/avatar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* ======================= STEP AREA CSS ======================= */
+
+.ContainerStep {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ContainerStep .TitleStep {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ContainerStep .TitleStep p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2c2c2c;
+}
+
+.ContainerStep .typeGrep {
+  width: 1px;
+  height: 32px;
+}
+
+.ContainerStep .typeGrep div {
+  width: 1px;
+  height: 32px;
+  background-image: url("../assets/separator.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ContainerStep .steps {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+.ContainerStep .steps .iconHome {
+  width: 13px;
+  height: 15px;
+  background-image: url("../assets/home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ContainerStep .steps .separator {
+  width: 11px;
+  height: 8px;
+  background-image: url("../assets/chevrons-right.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ContainerStep .steps .stepsUserWay {
+}
+
+.ContainerStep .ConfigStep {
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/config.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #717171;
+  border-radius: 50%;
+  background-size: 20px;
+}
+
+/* ================ CARDS ================  */
+
+.ContainerCard {
+  padding: 20px 20px;
+  height: 250px;
+  width: auto;
+  display: grid;
+  grid-template-columns: auto 230px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  border-radius: 8px;
+}
+
+.ContainerCard .InfosCards {
+  display: grid;
+  grid-template-columns: 210px auto;
+  column-gap: 25px;
+}
+.ContainerCard .InfosCards .image {
+  background-image: url("../assets/beats-headphones.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 210px;
+}
+.ContainerCard .InfosCards .infos {
+  display: grid;
+  row-gap: 22px;
+  grid-template-rows: min-content auto;
+}
+.ContainerCard .InfosCards .infos .titleCard {
+  display: grid;
+  grid-auto-rows: min-content;
+  row-gap: 7px;
+}
+.ContainerCard .InfosCards .infos .titleCard .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ContainerCard .InfosCards .infos .titleCard .title p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2c2c2c;
+}
+.ContainerCard .InfosCards .infos .titleCard .subtitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ContainerCard .InfosCards .infos .titleCard .subtitle p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7e7e7e;
+}
+.ContainerCard .InfosCards .infos .titleCard .subtitle span {
+  margin-left: 5px;
+}
+
+.ContainerCard .InfosCards .infos .textCard {
+}
+
+.ContainerCard .InfosCards .infos .textCard p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  color: #2c2c2c;
+}
+
+.ContainerCard .OptionsCard {
+  padding: 10px 20px;
+  display: grid;
+  row-gap: 10px;
+  border-left: 1px solid #dadada;
+}
+
+.ContainerCard .OptionsCard .qualification {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ContainerCard .OptionsCard .qualification div {
+  padding: 10px;
+  background: #787878;
+  border-radius: 3px;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContainerCard .OptionsCard .qualification div p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.ContainerCard .OptionsCard .qualification div div {
+  width: 15px;
+  height: 15px;
+  background-image: url("../assets/star.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  margin-left: 7px;
+}
+
+.ContainerCard .OptionsCard .price {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-auto-rows: min-content;
+}
+
+.ContainerCard .OptionsCard .price .numberPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContainerCard .OptionsCard .price .numberPrice p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2c2c2c;
+}
+
+.ContainerCard .OptionsCard .price .freight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContainerCard .OptionsCard .price .freight div {
+  width: 14px;
+  height: 14px;
+  background: url("../assets/shopping-cart.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ContainerCard .OptionsCard .price .freight p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 5px;
+  color: #999999;
+}
+
+.ContainerCard .OptionsCard .wishList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ededed;
+  border-radius: 8px;
+}
+
+.ContainerCard .OptionsCard .wishList div {
+  width: 15px;
+  height: 15px;
+  background: url("../assets/wish.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ContainerCard .OptionsCard .wishList p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  margin-left: 10px;
+}
+
+.ContainerCard .OptionsCard .AddCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #686868;
+  border-radius: 8px;
+}
+
+.ContainerCard .OptionsCard .AddCard div {
+  width: 15px;
+  height: 15px;
+  background: url("../assets/shopping-bag.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ContainerCard .OptionsCard .AddCard p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* ============== CHECKBOX COMPONENT ============== */
+
+.ContainerCheckbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ContainerCheckbox .checkName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContainerCheckbox .checkName input[type="checkbox"] {
+  height: 17px;
+  width: 17px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-image: url("../assets/nocheck-checkbox.png");
+  background-size: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ContainerCheckbox .checkName input[type="checkbox"]:checked {
+  height: 17px;
+  width: 17px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-image: url("../assets/check-checkbox.png");
+  background-size: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ContainerCheckbox .checkName div {
+  margin-left: 12px;
+}
+.ContainerCheckbox .checkName div p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #2c2c2c;
+}
+
+.ContainerCheckbox .valueCheck {
+}
+.ContainerCheckbox .valueCheck p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 32px;
+  color: #2c2c2c;
+}
+
+/* ============== BUTTON RADIO COMPONENT ============== */
+
+.subcontainerCheckbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #2c2c2c;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.subcontainerCheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-image: url("../assets/radio-nocheck.png");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.subcontainerCheckbox input:checked ~ .checkmark {
+  background-image: url("../assets/radio-check.png");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* ============== RAKING STARS COMPONENT ============== */
+
+.ContainerRanking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ContainerRanking .listStars {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ContainerRanking .listStars .stars {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ContainerRanking .listStars .stars div + .starIcon {
+  margin-right: 5px;
+}
+
+.ContainerRanking .listStars .stars .starIcon {
+  width: 18px;
+  height: 17px;
+  background-image: url("../assets/star.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkedStar {
+  background-image: url("../assets/check-star.png") !important;
+}
+
+.ContainerRanking .listStars .stars .starIcon:hover {
+  background-image: url("../assets/check-star.png");
+}
+
+.ContainerRanking .listStars .stars .starIcon:hover ~ .starIcon {
+  background-image: url("../assets/check-star.png");
+}
+
+.ContainerRanking .listStars .textStars {
+  margin-left: 15px;
+}
+
+.ContainerRanking .listStars .textStars p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #2c2c2c;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ContainerRanking .valueRanking {
+}
+.ContainerRanking .valueRanking p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 32px;
+  color: #2c2c2c;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ============== RANGE SLIDER COMPONENT ============== */
+
+/* ============== CONTAINER FILTER COMPONENT ============== */
+
+.containerCategoryFilter {
+  display: grid;
+  row-gap: 20px;
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 30px;
+}
+.containerCategoryFilter .titleFilter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.containerCategoryFilter .titleFilter P {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2c2c2c;
+}
+
+.containerCategoryFilter .optionsFilter {
+  display: grid;
+  row-gap: 18px;
+}
+
+/* ============== MENU ITENS COMPONENT ============== */
+
+.ContainerMenuItens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.ContainerMenuItens .ItenMenuName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContainerMenuItens .ItenMenuName .MenuItensIcon {
+  height: 17px;
+  width: 17px;
+  background-image: url("../assets/calendar.png");
+  background-size: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ContainerMenuItens .ItenMenuName div p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 40px;
+  color: #2c2c2c;
+  margin-left: 10px;
+}
+
+.ContainerMenuItens .IconMoreOptions {
+  height: 10px;
+  width: 5px;
+  background-image: url("../assets/menuIcon.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ContainerMenuItens .IconMoreOptions p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+  font-family: "Montserrat", sans-serif;
+  color: #999999;
+}
